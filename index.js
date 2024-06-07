@@ -8,7 +8,6 @@ import SwapBlock from './src/swap-block.js';
 import SwapButtonsBlock from './src/swap-buttons-block.js';
 import SwapTextBlock from './src/swap-text-block.js';
 import VideoBlock from './src/video-block.js';
-import SwapTextBlock from './src/swap-text-block.js';
 
 
 export {
@@ -21,6 +20,5 @@ export {
     SwapBlock,
     SwapButtonsBlock,
     SwapTextBlock,
-    VideoBlock,
-    SwapTextBlock
+    VideoBlock
 }

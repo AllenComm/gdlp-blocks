@@ -21,5 +21,6 @@ export {
     SwapBlock,
     SwapButtonsBlock,
     SwapTextBlock,
-    VideoBlock
+    VideoBlock,
+    SwapTextBlock
 }

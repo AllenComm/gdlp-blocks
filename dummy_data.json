@@ -1,0 +1,20 @@
+{
+    "gdlp-layered-image": {
+        "background": "#73b5f7",
+        "borderRadius": "10px",
+        "borderWidth": "20px",
+        "boxShadow": "10px 10px 10px rgba(0, 0, 0, .5)",
+        "clipPath": "",
+        "overflow": "hidden",
+        "perspective": 1000,
+        "multiplier": 8,
+        "spacing": 20, 
+        "initialDepth": 100,
+        "images": [
+            "./static/img1.png",
+            "./static/img2.png",
+            "./static/img3.png",
+            "./static/img4.png"
+        ]
+    }
+}

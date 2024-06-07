@@ -33,14 +33,18 @@ export default class LayeredImage extends HTMLElement {
     }
 
     requestMotionPermission = () => {
+        alert("requestMotionPermission called");
         if (typeof DeviceMotionEvent?.requestPermission === 'function') {
-           DeviceMotionEvent.requestPermission().then(permissionState => {
-               if (permissionState === 'granted') {
-                   window.addEventListener('devicemotion', this.handleDeviceMotion);
-               }
-           }).catch(console.error);
+            alert("DeviceMotionEvent.requestPermission is a function");
+            DeviceMotionEvent.requestPermission().then(permissionState => {
+                alert(`DeviceMotionEvent.requestPermission called: ${permissionState}`);
+                if (permissionState === 'granted') {
+                    window.addEventListener('devicemotion', this.handleDeviceMotion);
+                }
+            }).catch(console.error);
         } else {
-           window.addEventListener('devicemotion', this.handleDeviceMotion);
+            alert("DeviceMotionEvent.requestPermission is not a function");
+            window.addEventListener('devicemotion', this.handleDeviceMotion);
         }
     }
 
@@ -62,6 +66,7 @@ export default class LayeredImage extends HTMLElement {
     }
 
     handleDeviceMotion = (e) => {
+        alert(`handleDeviceMotion called: ${JSON.stringify(e.rotationRate)}`);
         const rotation = e.rotationRate || {};
         if (Math.abs(rotation.alpha) > this.SENSOR_THRESHOLD || Math.abs(rotation.beta) > this.SENSOR_THRESHOLD) {
             const x = -(rotation.alpha || 0) / this.SENSOR_SCALER;

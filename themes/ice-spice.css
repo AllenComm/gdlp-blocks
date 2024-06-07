@@ -1,0 +1,91 @@
+[data-theme="ice-spice"] {
+  /* General Variables */
+  --primary-color: #ff00ff; /* Bright pink */
+  --secondary-color: #00ff00; /* Bright green */
+  --accent-color: #ffff00; /* Bright yellow */
+  --success-color: #00ffff; /* Bright cyan */
+  --error-color: #ff0000; /* Bright red */
+  --font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+
+  /* Text Block Variables */
+  --text-block-font-color: #0000ff; /* Bright blue */
+  --text-block-background-color: #ffff00; /* Bright yellow */
+  --text-block-font-size: 1.5rem; /* Larger font */
+  --text-block-padding: 30px; /* Extra padding */
+
+  /* Swap Block Variables */
+  --swap-block-active-color: #ff00ff; /* Bright pink */
+  --swap-block-inactive-color: #00ff00; /* Bright green */
+  --swap-block-padding: 20px; /* Extra padding */
+  --swap-block-margin: 10px; /* Extra margin */
+  --swap-block-border-radius: 10px; /* Larger border radius */
+
+  /* Button Variables */
+  --button-font-size: 1.5rem; /* Larger font */
+  --button-padding: 15px 30px; /* Extra padding */
+  --button-margin: 15px; /* Extra margin */
+  --button-border-radius: 20px; /* Rounder buttons */
+  --button-background-color: #00ff00; /* Bright green */
+  --button-font-color: #0000ff; /* Bright blue */
+
+  /* Audio Block Variables */
+  --audio-block-width: 100%;
+  --audio-block-height: 100%;
+  --audio-block-background-color: #ff00ff; /* Bright pink */
+  --audio-block-padding: 20px; /* Extra padding */
+
+  /* Counter Block Variables */
+  --counter-block-background-color: #00ffff; /* Bright cyan */
+  --counter-block-padding: 20px; /* Extra padding */
+  --counter-block-border-radius: 10px; /* Larger border radius */
+  --counter-font-size: 1.5rem; /* Larger font */
+  --counter-font-color: #ff0000; /* Bright red */
+
+  /* Image Block Variables */
+  --image-block-width: 100%;
+  --image-block-height: 100%;
+  --image-block-background-color: #ffff00; /* Bright yellow */
+  --image-block-padding: 20px; /* Extra padding */
+  --image-block-border-radius: 10px; /* Larger border radius */
+  --image-border-radius: 10px; /* Larger border radius */
+
+  /* Intro Block Variables */
+  --intro-block-background-color: #0000ff; /* Bright blue */
+  --intro-block-font-color: #ffff00; /* Bright yellow */
+  --intro-block-padding: 30px; /* Extra padding */
+  --intro-block-font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+
+  /* MC Question Variables */
+  --mc-question-font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+  --mc-question-font-color: #ff00ff; /* Bright pink */
+  --mc-option-margin: 10px 0; /* Extra margin */
+  --mc-option-padding: 15px; /* Extra padding */
+  --mc-option-border-color: #00ffff; /* Bright cyan */
+  --mc-option-border-radius: 10px; /* Larger border radius */
+  --mc-option-background-color: #ff0000; /* Bright red */
+  --mc-option-selected-border-color: #ffff00; /* Bright yellow */
+  --mc-option-correct-border-color: #00ff00; /* Bright green */
+  --mc-option-correct-background-color: #00ffff; /* Bright cyan */
+  --mc-option-incorrect-border-color: #ff0000; /* Bright red */
+  --mc-option-incorrect-background-color: #ff00ff; /* Bright pink */
+  --mc-feedback-margin: 15px; /* Extra margin */
+  --mc-feedback-font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+  --mc-feedback-font-color: #0000ff; /* Bright blue */
+
+  /* Swap Buttons Block Variables */
+  --swap-buttons-block-padding: 20px; /* Extra padding */
+  --swap-buttons-block-background-color: #ff00ff; /* Bright pink */
+
+  /* Text Block Variables */
+  --text-block-padding: 30px; /* Extra padding */
+  --text-block-font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+  --text-block-font-size: 1.5rem; /* Larger font */
+  --text-block-font-color: #0000ff; /* Bright blue */
+  --text-block-background-color: #ffff00; /* Bright yellow */
+
+  /* Video Block Variables */
+  --video-block-padding: 20px; /* Extra padding */
+  --video-block-background-color: #ff00ff; /* Bright pink */
+  --video-object-fit: contain; /* Contain the video */
+  --video-border-radius: 10px; /* Larger border radius */
+}

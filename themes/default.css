@@ -1,0 +1,91 @@
+[data-theme="default"] {
+  /* General Variables */
+  --primary-color: #fff;
+  --secondary-color: #333;
+  --accent-color: #007bff;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --font-family: 'Roboto', sans-serif;
+
+  /* Text Block Variables */
+  --text-block-font-color: #000;
+  --text-block-background-color: #f9f9f9;
+  --text-block-font-size: 1.2rem;
+  --text-block-padding: 20px;
+
+  /* Swap Block Variables */
+  --swap-block-active-color: #007bff;
+  --swap-block-inactive-color: #ccc;
+  --swap-block-padding: 10px;
+  --swap-block-margin: 5px;
+  --swap-block-border-radius: 4px;
+
+  /* Button Variables */
+  --button-font-size: 1rem;
+  --button-padding: 10px 20px;
+  --button-margin: 10px;
+  --button-border-radius: 4px;
+  --button-background-color: #007bff;
+  --button-font-color: #fff;
+
+  /* Audio Block Variables */
+  --audio-block-width: 100%;
+  --audio-block-height: 100%;
+  --audio-block-background-color: #fff;
+  --audio-block-padding: 10px;
+
+  /* Counter Block Variables */
+  --counter-block-background-color: #fff;
+  --counter-block-padding: 10px;
+  --counter-block-border-radius: 4px;
+  --counter-font-size: 1.2rem;
+  --counter-font-color: #333;
+
+  /* Image Block Variables */
+  --image-block-width: 100%;
+  --image-block-height: 100%;
+  --image-block-background-color: #fff;
+  --image-block-padding: 10px;
+  --image-block-border-radius: 4px;
+  --image-border-radius: 4px;
+
+  /* Intro Block Variables */
+  --intro-block-background-color: #fff;
+  --intro-block-font-color: #000;
+  --intro-block-padding: 20px;
+  --intro-block-font-family: 'Roboto', sans-serif;
+
+  /* MC Question Variables */
+  --mc-question-font-family: 'Roboto', sans-serif;
+  --mc-question-font-color: #000;
+  --mc-option-margin: 5px 0;
+  --mc-option-padding: 10px;
+  --mc-option-border-color: #ddd;
+  --mc-option-border-radius: 4px;
+  --mc-option-background-color: #fff;
+  --mc-option-selected-border-color: #007bff;
+  --mc-option-correct-border-color: #28a745;
+  --mc-option-correct-background-color: #d4edda;
+  --mc-option-incorrect-border-color: #dc3545;
+  --mc-option-incorrect-background-color: #f8d7da;
+  --mc-feedback-margin: 10px;
+  --mc-feedback-font-family: 'Roboto', sans-serif;
+  --mc-feedback-font-color: #000;
+
+  /* Swap Buttons Block Variables */
+  --swap-buttons-block-padding: 10px;
+  --swap-buttons-block-background-color: #fff;
+
+  /* Text Block Variables */
+  --text-block-padding: 16px;
+  --text-block-font-family: 'Roboto', sans-serif;
+  --text-block-font-size: 1rem;
+  --text-block-font-color: #000;
+  --text-block-background-color: #fff;
+
+  /* Video Block Variables */
+  --video-block-padding: 10px;
+  --video-block-background-color: #000;
+  --video-object-fit: cover;
+  --video-border-radius: 4px;
+}

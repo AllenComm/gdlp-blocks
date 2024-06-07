@@ -13,8 +13,8 @@ export default class LayeredImage extends HTMLElement {
     connectedCallback() {
         this.render();
         window.addEventListener("mousemove", this.handleMouseMove);
-        window.addEventListener("devicemotion", this.handleDeviceMotion);
         window.addEventListener("scroll", this.handleScroll);
+        this.requestMotionPermission();
     }
 
     disconnectedCallback() {
@@ -30,6 +30,18 @@ export default class LayeredImage extends HTMLElement {
     set data(value) {
         this.props = value;
         this.render();
+    }
+
+    requestMotionPermission = () => {
+        if (typeof DeviceMotionEvent?.requestPermission === 'function') {
+           DeviceMotionEvent.requestPermission().then(permissionState => {
+               if (permissionState === 'granted') {
+                   window.addEventListener('devicemotion', this.handleDeviceMotion);
+               }
+           }).catch(console.error);
+        } else {
+           window.addEventListener('devicemotion', this.handleDeviceMotion);
+        }
     }
 
     rotate = () => {

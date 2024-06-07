@@ -1,5 +1,5 @@
-(function() {
-  class SwapTextBlock extends HTMLElement {
+
+  export default class SwapTextBlock extends HTMLElement {
     constructor() {
       super();
       this.attachShadow({ mode: 'open' });
@@ -69,4 +69,3 @@
   }
 
   customElements.define('swap-text-block', SwapTextBlock);
-})();

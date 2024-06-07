@@ -1,5 +1,5 @@
-(function() {
-  class SwapButtonsBlock extends HTMLElement {
+
+  export default class SwapButtonsBlock extends HTMLElement {
     constructor() {
       super();
       this.attachShadow({ mode: 'open' });
@@ -75,4 +75,3 @@
   }
 
   customElements.define('swap-buttons-block', SwapButtonsBlock);
-})();
